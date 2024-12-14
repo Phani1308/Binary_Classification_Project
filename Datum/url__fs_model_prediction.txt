@@ -1,0 +1,36 @@
+================================================================================
+input url :: `https://python.org`
+--------------------------------------------------------------------------------
+displaying the model prediction and the prediction confidence percentage of the input url :
+         is phishing url :: `https://python.org` model prediction confidence percentage
+fs__mNB                                    False                   99.98794495651501 % 
+fs__mLR                                    False                   72.96677736104994 % 
+fs__mDC                                    False                               100.0 % 
+fs__mRFC                                   False                                76.0 % 
+fs__mKNN                                    True                                80.0 % 
+fs__mSVM                                   False                                   None
+================================================================================
+========================================================================================================================
+input url :: `https://www.google.com`
+------------------------------------------------------------------------------------------------------------------------
+displaying the model prediction and the prediction confidence percentage of the input url :
+         is phishing url :: `https://www.google.com` model prediction confidence percentage
+fs__mNB                                         True                   58.81017636928545 % 
+fs__mLR                                        False                   69.68690984662626 % 
+fs__mDC                                         True                               100.0 % 
+fs__mRFC                                        True                                81.0 % 
+fs__mKNN                                        True                                80.0 % 
+fs__mSVM                                       False                                   None
+========================================================================================================================
+========================================================================================================================
+input url :: `https://www.google.com`
+------------------------------------------------------------------------------------------------------------------------
+displaying the model prediction and the prediction confidence percentage of the input url :
+         is phishing url :: `https://www.google.com` model prediction confidence percentage
+fs__mNB                                         True                   58.81017636928545 % 
+fs__mLR                                        False                   69.68690984662626 % 
+fs__mDC                                         True                               100.0 % 
+fs__mRFC                                        True                                81.0 % 
+fs__mKNN                                        True                                80.0 % 
+fs__mSVM                                       False                                   None
+========================================================================================================================
